@@ -1,0 +1,12 @@
+all:
+  hosts:
+    master1:
+      ansible_host: 172.24.160.1
+      ansible_port: 22228
+      ansible_user: ansible
+      ansible_ssh_key: ~/.ssh/id_rsa
+    master2:
+      ansible_host: 172.24.160.1
+      ansible_port: 22227
+      ansible_user: ansible
+      ansible_ssh_key: ~/.ssh/id_rsa
